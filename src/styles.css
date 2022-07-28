@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App {
+  position: relative;
+  font-family: sans-serif;
+  text-align: center;
+  background-image: linear-gradient(
+    rgba(7, 7, 63, 0.541),
+    rgba(90, 90, 150, 0.233)
+  );
+  /*background-image: url('https://w7.pngwing.com/pngs/332/1019/png-transparent-minecraft-character-minecraft-labymedia-gmbh-mod-video-game-minecraft-data-toy-robot-thumbnail.png');*/
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  border-radius: 35px;
+  animation-name: example;
+  animation-duration: 6s;
+}
+
+.App:hover {
+  background-image: url("https://w7.pngwing.com/pngs/332/1019/png-transparent-minecraft-character-minecraft-labymedia-gmbh-mod-video-game-minecraft-data-toy-robot-thumbnail.png");
+}
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+h2 {
+  color: red;
+}
